@@ -58,7 +58,7 @@ class AuthRepository {
       //or
       // await _users.doc(userModel.uid).set(userModel.toMap());
     } catch (e) {
-      print(e);
+      // print(e);
     }
   }
 }
